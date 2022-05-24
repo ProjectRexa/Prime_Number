@@ -19,6 +19,6 @@ else:
     Prime = False
 
 if Prime == True:
-    print(num, "is not a prime number")
+  print(str(num) + " is not a prime number")
 else:
-    print(num, "is a prime number")
+  print(str(num) + " is a prime number")
