@@ -11,14 +11,16 @@ if num > 1:
 # check for factors
     for i in range(2, num):
           if (num % i) == 0:
-              Prime = True
+              Prime = False
               break
+    else:
+      Prime = True
 
 
 else:
-    Prime = False
+  Prime = False
 
 if Prime == True:
-  print(str(num) + " is not a prime number")
-else:
   print(str(num) + " is a prime number")
+else:
+  print(str(num) + " is not a prime number")
